@@ -1,0 +1,44 @@
+.rec {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.rec-inf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rec-inf-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.rec-section {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.rec-item {
+    border-radius: 1rem;
+    background-color: white;
+    border: 0.1rem solid #e9e8e8;
+}
+
+.t-op {
+    margin-left: 0.7rem;
+    margin-top: 0.7rem;
+}
+
+.t-om {
+    font-size: 0.9rem;
+    margin-left: 0.7rem;
+    margin-bottom: 0.7rem
+}
+
+.rec-photo {
+    width: 15rem;
+    border-radius: 0.9rem 0.9rem 0 0;
+}

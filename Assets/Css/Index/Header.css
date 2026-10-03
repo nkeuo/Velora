@@ -1,0 +1,76 @@
+header {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.bg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.logo-site {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-left: 0.9rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-panel img {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-left: 1rem;
+}
+
+.nav-line {
+    width: 0.840rem;
+    height: 0.840rem;
+    padding: 0.215rem;
+    justify-content: center;
+    padding-left: 0.5rem;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    list-style-type: none;
+
+}
+
+.nav ul li a {
+    display: inline-flex;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.050rem;
+    font-weight: 500;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.nav-panel {
+    position: relative;
+}
+
+.shop-num {
+    font-size: 0.6rem;
+    position: absolute;
+    color: #FFFFFF;
+    top: -0.5rem;
+    right: -0.5rem;
+    background-color: #000000;
+    padding: 0.215rem 0.4rem;
+    border-radius: 50%;
+}

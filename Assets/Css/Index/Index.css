@@ -1,0 +1,35 @@
+@import url('Header.css');
+@import url('Hero.css');
+@import url(Details.css);
+@import url(Rec.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #FFFFFF;
+    font-size: 1.050rem;
+    font-weight: 400;
+}
+
+.site-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    background-color: #F5F5F7;
+}
+
+.site-news p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.news-car {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 0.550rem;
+}
